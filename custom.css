@@ -1,41 +1,221 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+} 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+} 
+*[hidden] {
+    display: none;
+} 
+body {
+    line-height: 1;
+} 
+menu,
+ol,
+ul {
+    list-style: none;
+} 
+blockquote,
+q {
+    quotes: none;
+} 
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+} 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+html {
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+html > * {
+    -webkit-letter-spacing: 0.4px;
+    -moz-letter-spacing: 0.4px;
+    -ms-letter-spacing: 0.4px;
+    letter-spacing: 0.4px;
+} 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 .ld-custom-name {
-    color: black;
-}
-
-.ld-custom-name:visited {
-    color: black;
-}
-
-.ld-custom-button-container {
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: -webkit-transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    -webkit-transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    background-color: #2665d6;
-    color: #fff;
-}
-
-.ld-custom-button-container:hover {
-    -webkit-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    transform: scale(1.02);
-}
-
-.ld-custom-button {
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    margin: 0;
+    color: #000000;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .ld-custom-background-layer {
-    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff003;
+    background: linear-gradient(180deg, #fff003, #ff7e17);
+}
+
+
+.ld-custom-button-container {
+    position: relative;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    border: 2px solid;
+    border-color: #000000;
+    -webkit-transition: none;
+    transition: none;
+    box-shadow: 8px 8px 0 0 #000000;
+    color: #000000;
+    background-color: #ffffff;
+    width: calc(100% - 12px);
+    border-radius: 30px;
+}
+
+.ld-custom-button-container:hover {
+    -webkit-transform: translate(4px, 4px);
+    -ms-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 0 0 #000000;
+}
+
+
+.ld-custom-button-container:active {
+    -webkit-transform: translate(4px, 4px);
+    -ms-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 0 0 #000000;
+}
+
+
+.ld-custom-button-container .grecaptcha-badge {
+    opacity: 0;
+}
+
+#root-container {
+    background-image: linear-gradient(130deg, pink, purple);
 }
